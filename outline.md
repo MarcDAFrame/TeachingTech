@@ -33,4 +33,3 @@ Curriculum outline for Teaching Tech
 - once a week
 - google slides
 - github repo with lesson notes (written with markdown)
-- 
