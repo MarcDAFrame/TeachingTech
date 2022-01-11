@@ -1,4 +1,43 @@
 # Week 1: Fundamentals of computers
+
+The following is very complex, this is not meant to fully explain all these concepts, merely give an appreciation of the layers of abstraction that tech is built upon.
+
+
+## Example 1: Layers of abstraction
+How computers emerge from the physical transistors
+
+| layer # | name | description |
+| --- | --- | --- |
+| 1 | transistors | the physical 5-12um silicon within your CPU |
+| 2 | logic gates | combination of transistors to form logic gates |
+| 3 | logic circuits | combination of logic gates to form logic circuits |
+| 4 | computer architecture | combination of logic circuits to form the computer architecture |
+| 5 | hardware | the physical manifestation of computer architecture |
+| 6 | firmware | an abstraction above hardware, so that developers don't have to write hardware specific code, reduces complexity | 
+| 7 | Operating Systems | an abstraction above hardware (often built atop firmware), reduces complexity in interacting with hardware |
+| 8 | Virtualization | an abstraction above Operating Systems, so that users don't have to write operating system specific software (i.e. virtual machines, docker, web browser...) |
+
+
+## Example 2: Layers of abstraction for programming languages
+Programming languages have been built on top of each other, sacrificing a little runtime efficiency for major increase in developer efficiency. The abstractions are to reduce complexity, and reduce the amount of work the software engineer has to do. 
+
+| layer # | name | description |
+| --- | --- | --- |
+| 1 | Machine Code | lowest-level programming language, binary code that the computer can read at the hardware level |
+| 2 | Assembly | low-level programming language, human readable machine code that is compiled down to machine code |
+| 3 | C | mid-level programming language, abstraction above assembly | 
+| 4 | python | high-level programming language, abstraction above C - python compiler is written in C |
+| 5 | libraries / frameworks | provide tools and features that you don't have to program yourself |
+
+## Example 3: Layers of abstraction for infrastructure
+![iaas-paas-saas.png](<./res/iaas-paas-saas.png>)
+| layer # | name | description |
+| --- | --- | --- |
+| 1 | on-prem / self hosting | managing your own hardware |
+| 2 | Infrastructure as a Service (IaaS) | cloud providers, manage the hardware for you, you manage the software, databases... on the infrastructure |
+| 3 | Platform as a Service (PaaS) | platform manages software, databases... for you, you build your app on top of these platforms |
+| 4 | Software as a Service (SaaS) | software solutions made for you, require no development on your part (No Code, Google Docs, Slack...) |
+
 ## Outline
 - History
 - Binary
@@ -66,48 +105,27 @@ Logic is built upon the binary system in the form of `boolean logic`
 
 ## Boolean Logic
 ![boolean-algebra-truth-tables.png](<./res/boolean-algebra-truth-tables.png>)
-![minecraft](<./res/minecraft-logic-gates.jpg>)
 
-[source](https://minecraft.wonderhowto.com/news/redstone-logic-gates-mastering-fundamental-building-blocks-for-creating-game-machines-0135063/)
 
 ## Logic Gates
-![minecraft](<./res/logic-gates.jpeg>)
+![logic gates](<./res/logic-gates.jpeg>)
 - column 1: logic gate name
 - column 2: logic gate symbols
 - column 3: truth tables
 - column 4: logic symbols
 
-## Truth Tables
-truth tales are a representation of logic which shows every combination of inputs and their respective outputs
+![minecraft](<./res/minecraft-logic-gates.jpg>)
+- minecraft redstone is a form of logic gates
 
-with two inputs the set of all possible
+[more about the Minecraft logic gates](https://minecraft.wonderhowto.com/news/redstone-logic-gates-mastering-fundamental-building-blocks-for-creating-game-machines-0135063/)
 
-| n inputs | all possible combinations | n combinations |
-| --- | --- | --- |
-| 1 | 0, 1 | 2 |
-| 2 | 00, 01, 10, 11 | 4 |
-| 3 | 000, 001, 010, 011, 100, 101, 110, 111 | 8 |
-| 4 | 0000, 0001, ... 1111 | 16 |
-
-truth tables length grows exponentially by the number of inputs, so they aren't good for representing larger 
-
-## Propositional Logic
-Propositional logic is used in boolean algebra
-
-![propositional-logic.png](<./res/propositional-logic.png>)
-
-using the following equivalences
-
-![propositional-logic-equivalence.png](<./res/propositional-logic-equivalence.png>)
-
-you can use this to translate english language to logic, simplify logic and compute output given the input.
 
 ## Logic Circuits
 ![logic-circuit](<./res/logic-circuit.png>)
 
 logic circuits are combinations of multiple logic gates
 
-### Arithmetic Logic Unit (ALU)
+### Logic Circuit: Arithmetic Logic Unit (ALU)
 a component of a CPU, an ALU is a combinational digital circuit performs arithmetic and bitwise operations on integer binary numbers.
 
 ![ALU Overview](<./res/alu-overview.gif>)
@@ -116,20 +134,20 @@ This is a 4 bit ALU, modern computers have 32/64/80 bit ALUs. The complexity of 
 
 This is one example of a logic circuit
 
-### Flip-Flop
+### Logic Circuit: Flip-Flop
 a digital circuit that is used for storing 1 bit of digital data.
 
 ![flip-flop.jpg](<./res/flip-flop.jpg>)
 
 Note, in the above diagram how the circuit feeds back into itself. This is what enables the circuit to have a concept of "memory"
 
-### Registers 
+### Logic Circuit: Registers 
 A component of a CPU, RAM and other computer hardware, a register is a digital circuit that is used for storing **n** bits of digital data. It is comprised of a chain of **n** `flip-flops`.
 
 These are quite complex, we will not talk about their implementation.
 
 
-### Control Unit (CU)
+### Logic Circuit: Control Unit (CU)
 ![control-unit.gif](<./res/control-unit.gif>)
 
 A component of a CPU, a CU directs the operations and processes of a computer. It converts coded instructions into timing and control signals that direct the operation of the other units (memory, arithmetic logic unit and input and output devices, etc.).

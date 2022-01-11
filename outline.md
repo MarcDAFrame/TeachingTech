@@ -3,33 +3,54 @@
 Curriculum outline for Teaching Tech 
 
 ## Curriculum Outline
-- fundamentals of computers
-    - binary
-    - transistors, logic gates, logic circuits, alu
-    - hardware
-        - Input
-            - keyboard, mouse...
-        - Output
-            - monitor, speakers, printer...
-        - Processing 
-            - CPU, GPU
-        - Storage
-            - Primary
-                - RAM
-            - Secondary
-                - HDD, SDD
-        - Motherboard
-    - firmware
-- fundamentals of software development
-    - git
-    - IDE
-    - vocabulary
-- teach web technologies
-- teach cloud fundamentals
+- fundamentals of computers (1 week)
+- fundamentals of software development (1 week)
+- web technologies (5+ weeks)
+- cloud fundamentals (5+ weeks)
+
+### Week 1: Fundamentals of Computers
+- binary
+- transistors
+- logic gates
+- logic circuits
+- ALU, CU
+- Computer Architecture
+- Hardware
+- Firmware
+- Software
+
+### Week 2: Fundamentals of Software Development
+- nodejs
+- IDE setup
+- terminal
+- bash
+- git
+- vocabulary
+- how to google
+
+### Week 3: Introduction to HTML
+
+### Week 4: Introduction to CSS
+
+### Week 5: Introduction to JS
+
+### Week 6: Introduction to JS Frameworks
+- SPAs
+- CSR, SSR, SSG
+
+### Week 7: Introduction to APIs
+- restful
+- graphql
+- fetch
 
 
-## Requirements
-- 1 hr lessons
-- once a week
-- google slides
-- github repo with lesson notes (written with markdown)
+## Schedule
+- once a week lecture (1-hr)
+- once a week work session
+
+## Format
+- github repo with lesson notes
+- lessons and communication through discord or slack
+- group or individual project
+    - they pitch the idea at the beginning of the club
+- small weekly challenges / exercises
