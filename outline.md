@@ -43,6 +43,17 @@ Curriculum outline for Teaching Tech
 - graphql
 - fetch
 
+### Week 8: Introduction to Cloud Services
+- compute
+- serverless
+- databases
+- object storage
+
+### Week 9: Hosting a website
+- static hosting
+- API hosting
+
+
 
 ## Schedule
 - once a week lecture (1-hr)

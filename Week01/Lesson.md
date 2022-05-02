@@ -3,6 +3,47 @@
 The following is very complex, this is not meant to fully explain all these concepts, merely give an appreciation of the layers of abstraction that tech is built upon.
 
 
+## Outline
+- History
+- Layers of Abstraction
+- Binary
+    - transistors
+- Logic
+    - logic gates
+    - logic circuits
+    - ALU
+- Computer Architecture
+    - Instruction Sets
+        - ARM: RISC
+        - x86
+- Hardware
+- Firmware
+- Operating Systems
+
+
+
+
+
+
+
+# History
+| Gen # | Years | Description |
+| --- | --- | --- |
+| 1 | 1946-1959 | Vacuum tube based. |
+| 2 | 1959-1965 | Transistor based. |
+| 3 | 1965-1971 | Integrated Circuit based. |
+| 4 | 1971-1980 | VLSI microprocessor based. |
+| 5 | 1980-onwards | ULSI microprocessor based. |
+
+
+
+
+
+
+
+
+# Layers of Abstraction
+
 ## Example 1: Layers of abstraction
 How computers emerge from the physical transistors
 
@@ -38,31 +79,10 @@ Programming languages have been built on top of each other, sacrificing a little
 | 3 | Platform as a Service (PaaS) | platform manages software, databases... for you, you build your app on top of these platforms |
 | 4 | Software as a Service (SaaS) | software solutions made for you, require no development on your part (No Code, Google Docs, Slack...) |
 
-## Outline
-- History
-- Binary
-    - transistors
-- Logic
-    - logic gates
-    - logic circuits
-    - ALU
-- Computer Architecture
-    - Instruction Sets
-        - ARM: RISC
-        - x86
-- Hardware
-- Firmware
-- Operating Systems
 
 
-# History
-| Gen # | Years | Description |
-| --- | --- | --- |
-| 1 | 1946-1959 | Vacuum tube based. |
-| 2 | 1959-1965 | Transistor based. |
-| 3 | 1965-1971 | Integrated Circuit based. |
-| 4 | 1971-1980 | VLSI microprocessor based. |
-| 5 | 1980-onwards | ULSI microprocessor based. |
+
+
 
 
 
