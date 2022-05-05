@@ -20,11 +20,33 @@ Curriculum outline for Teaching Tech
 - Software
 
 ### Week 2: Fundamentals of Software Development
-- nodejs
-- IDE setup
 - terminal
 - bash
 - git
+- IDE setup
+- nodejs
+- algorithms
+    - Big O
+- languages
+    - https://en.wikipedia.org/wiki/List_of_programming_languages_by_type
+    - W3 languages
+    - Dynamicly Typed Languages
+        - Python
+        - Javascript
+    - Statically Typed Languages
+        - Java
+        - Typescript
+        - C
+    - Functional
+        - stateless
+    - Object-oriented
+    - Scripting
+        - Bash
+        - Python
+    - Concurrent Languages
+        - GO
+    - Interpreted 
+    - Compiled
 - vocabulary
 - how to google
 
