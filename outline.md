@@ -49,6 +49,7 @@ Curriculum outline for Teaching Tech
     - Compiled
 - vocabulary
 - how to google
+- paths
 
 ### Week 3: Introduction to HTML
 
@@ -59,6 +60,8 @@ Curriculum outline for Teaching Tech
 ### Week 6: Introduction to JS Frameworks
 - SPAs
 - CSR, SSR, SSG
+- I built the same app 10 times // Which JS Framework is best?
+    - https://www.youtube.com/watch?v=cuHDQhDhvPE&ab_channel=Fireship
 
 ### Week 7: Introduction to APIs
 - restful

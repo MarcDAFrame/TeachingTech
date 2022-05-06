@@ -317,4 +317,3 @@ an example of a standardized API is the file system. Instead of having to worry 
 - hardware threading
 - I/O device access
 - memory management
-
