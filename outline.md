@@ -47,6 +47,7 @@ Curriculum outline for Teaching Tech
         - GO
     - Interpreted 
     - Compiled
+- design patterns
 - vocabulary
 - how to google
 - paths

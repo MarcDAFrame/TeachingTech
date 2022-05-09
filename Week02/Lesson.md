@@ -254,9 +254,27 @@ def func(n):
     - Typescript
     - C
 ## Functional
-    - stateless
+- stateless
+- more of a paradigm than a type of language
+    - Python, Javascript ... can all be functional so long as you adhere to the functional philosophy
+- philosphy: pure functions - no side effects, stateless, same output given the same input
+- pros:
+    - easier to unit test
+- cons:
+    - not as widely known and supported
+
 ## Object-oriented
+- concept of Objects that organize software design around data
+- pros: 
+    - decreased duplicate logic
+- cons:
+    - 
+
+```
+
+```
 ## Scripting
+
     - Bash
     - Python
 ## Concurrent Languages
@@ -270,6 +288,12 @@ def func(n):
 - mutable
 - immutable
 - recursion
+- instance
+- regex
+- API
+- backend
+- frontend
+- http
 
 # Resources
 - https://www.youtube.com/watch?v=-uleG_Vecis&ab_channel=Fireship
