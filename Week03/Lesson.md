@@ -40,6 +40,7 @@ https://www.w3schools.com/html/html_intro.asp
     - end tag
 - some HTML tags are self closing
     - line break tag: `<br />`
+    - don't have children
 
 
 ## HTML History
@@ -59,3 +60,21 @@ https://www.w3schools.com/html/html_intro.asp
 | 2017 | W3C Recommendation: HTML5.1 2nd Edition |
 | 2017 | W3C Recommendation: HTML5.2 |
 
+
+
+
+
+# Thoughts
+- different tags
+  - img
+  - div
+  - section
+  - h1, h2 ... 
+  - canvas
+  - style
+  - script
+- tag attributes
+- position system
+  - https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning
+- display system
+  - 
