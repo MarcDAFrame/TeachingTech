@@ -304,3 +304,15 @@ def func(n):
     - https://www.geeksforgeeks.org/python-data-structures-and-algorithms/
 - bash
     - https://kinsta.com/blog/linux-commands/
+
+
+
+
+# TODO
+- how to setup VS Code
+- file system overview
+    - paths
+        - relative
+        - absolute
+        - . / ..
+- git
