@@ -1,0 +1,61 @@
+<section>
+	<img src="https://avatars.githubusercontent.com/u/12549239?v=4"/>
+	<span>
+		mthp1999
+	</span>
+	<button>
+		Follow
+	</button>
+	<div id="followers">
+		<div id="pfp">
+			<svg text="muted" aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-people">
+    <path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path>
+</svg>
+		</div>
+		<a href="https://github.com/mthp1999?tab=followers">
+			2 followers
+		</a>
+		 · 2 following
+	</div>
+</section>
+
+<style>
+	img{
+		width: 250px;
+  border-radius: 50%;
+	}
+	span{
+		display: block;
+		font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #57606a;
+		font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	}
+	button{
+		width: 100%;
+	}
+	section{
+		width: 250px;
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+	#followers{
+		font-size: 12px;
+		display: flex;
+		gap: 15px;
+		align-items: center;
+	}
+	#pfp{
+		display: inline; 
+	}
+	a{
+		color: black;
+		transition: all 10s ease 
+	}
+	a:hover{
+		color: blue;
+	}
+</style>

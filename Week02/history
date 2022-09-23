@@ -1,0 +1,101 @@
+10087  ls
+10088  clear
+10089  mkdir teachingtech
+10090  cd teachingtech
+10091  ls
+10092  touch test
+10093  ls
+10094  clear
+10095  nano test
+10096  vim test
+10097  vi test
+10098  ls
+10099  nano test
+10100  cat test
+10101  history
+10102  clear
+10103  htop
+10104  top
+10105  ls
+10106  cd
+10107  cd -
+10108  dir 
+10109  dir
+10110  ls
+10111  mkdir repo
+10112  cd repo
+10113  ls
+10114  clear
+10115  ls
+10116  ls -a
+10117  cd ..
+10118  ls
+10119  cd -
+10120  cd .
+10121  clear
+10122  git init
+10123  ls
+10124  touch test
+10125  git status
+10126  git add test
+10127  git commit -m "first commit"
+10128  git status
+10129  clear
+10130  nano test
+10131  cat test
+10132  git add .
+10133  git status
+10134  git commit -m "hi ankit"
+10135  git status
+10136  git log
+10137  git checkout f240277d0919a62affd0cbc673afe32766979e17
+10138  cat test
+10139  git checkout HEAD
+10140  git checkout master
+10141  cat test
+10142  ls
+10143  git remote add origin git@github.com:MarcDAFrame/test.git
+10144  git push
+10145  git push --set-upstream origin master
+10146  ls
+10147  git status
+10148  clear
+10149  nodejs
+10150  clear
+10151  nodejs
+10152  python
+10153  deno
+10154  python
+10155  clear
+10156  typescript
+10157  tsc
+10158  tsnode
+10159  clear
+10160  ls
+10161  cd Week02
+10162  ls
+10163  cd experiments
+10164  ls
+10165  clear
+10166  ls
+10167  tsc test.ts
+10168  npm i -g tsc
+10169  tsc
+10170  tsc test.ts
+10171  npm install typescript
+10172  tsc
+10173  npm uninstall tsc
+10174  tsc
+10175  typescript 
+10176  npm install typescript
+10177  clear
+10178  tsc
+10179  npx
+10180  npm install -g typescript
+10181  python
+10182  python3
+10183  python3 test.py
+10184  python3 functional.py
+10185  python3 oop.py
+10186  python3 functional.py
+10187  python3 oop.py
