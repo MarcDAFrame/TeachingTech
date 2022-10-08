@@ -53,6 +53,7 @@ Curriculum outline for Teaching Tech
 - paths
 
 ### Week 3: Introduction to HTML
+- begin ideation of the project
 
 ### Week 4: Introduction to CSS
 
