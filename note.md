@@ -97,3 +97,31 @@ teach tech to highschool students
 ## Mohina Actionables
 - talk to Mr. Wires
 - distribute the google form
+
+
+# Meeting with Stephen and Spencer
+
+This meeting they are discussing a side project, what I am getting out of this exchange is to develop the project based section for this project.
+
+
+steps
+1. ideation: you write out a few sentences about what the app does
+2. do market research, 
+  - find competitors
+    - what features do they provide
+    - what value can you provide that they don't?
+      - price, quality, features ...
+    - what value do they provide that you can't?
+      - user base, complexity ...
+3. feature list: write out the features that you want the project to do
+  - write as many as you can
+  - go through the list and label the necessary features MVP (minimum viable product)
+    - MVP being the features that the app can't work without
+3. paper sketches
+4. optional: generate higher quality mockups, select styling (fonts, colors ...)
+5. 
+
+## Idea
+- develop a "sports queuing app", allow people to queue for sports in their area and join games that need an extra player
+- there will be ranking system
+  - hidden MMR

@@ -18,25 +18,29 @@ Curriculum outline for Teaching Tech
 - Hardware
 - Firmware
 - Software
+- Web Dev
 
 ### Week 2: Fundamentals of Software Development
 - terminal
-- bash
+  - bash
 - git
 - IDE setup
-- nodejs
+- languages
+  - nodejs
+  - python
 - algorithms
     - Big O
 - languages
     - https://en.wikipedia.org/wiki/List_of_programming_languages_by_type
     - W3 languages
-    - Dynamicly Typed Languages
+    - Dynamically Typed Languages
         - Python
         - Javascript
     - Statically Typed Languages
         - Java
         - Typescript
         - C
+        - C++
     - Functional
         - stateless
     - Object-oriented
@@ -45,7 +49,7 @@ Curriculum outline for Teaching Tech
         - Python
     - Concurrent Languages
         - GO
-    - Interpreted 
+    - Interpreted
     - Compiled
 - design patterns
 - vocabulary
